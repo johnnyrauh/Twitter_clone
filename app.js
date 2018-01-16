@@ -15,8 +15,6 @@ const people = [{name: 'Full'}, {name: 'Stacker'}, {name: 'Son'}];
 
 app.listen(3000, () => console.log('Example app listening on port 3000!'))
 
-function delete();
-
 var locals = {
   title: 'An Example',
   people: [
@@ -33,6 +31,4 @@ app.get('/', (req, res) => res.render( 'index.html', locals ))
 nunjucks.render('index.html', locals, function (err, output) {
 
 });
-
-// testing
 
